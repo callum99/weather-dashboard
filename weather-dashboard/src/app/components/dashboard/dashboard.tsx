@@ -18,7 +18,7 @@ import SearchBar from '../search-bar/search-bar';
 import Image from "next/image";
 import {WeatherData} from "./dashboard.const";
 import {getSuffix} from '../../utils/getSuffix'
-import {getDate} from "@/app/utils/getDate";
+import {getDate} from "../../utils/getDate";
 
 const Dashboard = () => {
   const [weather, setWeather] = useState(
