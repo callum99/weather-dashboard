@@ -1,3 +1,4 @@
+'use client';
 import React, { useEffect, useState } from 'react';
 import {
   DashContainer,
@@ -14,6 +15,7 @@ import DayOverview from '../day-overview/day-overview';
 import FiveDayForeCast from '../five-day-forecast/five-day-forecast';
 import ButtonGroup from '../button-group/button-group';
 import SearchBar from '../search-bar/search-bar';
+import Image from "next/image";
 
 const Dashboard = () => {
   const [weather, setWeather] = useState(
@@ -5121,7 +5123,7 @@ const Dashboard = () => {
         setWeather(json);
       })
       .catch(error => console.error(error));
-  }, [location, date1, date2]);
+  }, [fetchUrl]);
 
   return (
     <DashContainer>
@@ -5130,7 +5132,7 @@ const Dashboard = () => {
         <TodayLocation>{weather.address}</TodayLocation>
         <TodayDate>{displayDate(weather.days[0].datetimeEpoch)}</TodayDate>
         <ImageContainer>
-          <img width="233" height="auto" src="/images/cloudy-day.svg" />
+          <Image alt="Weather Icon" width="233" height="209" layout="responsive" src="/images/cloudy-day.svg" />
         </ImageContainer>
         <TodayTemp>{`${tempertureReducer(weather.days[0].temp)}${setSuffix()}`}</TodayTemp>
         <TodayCondition>{weather.days[0].conditions}</TodayCondition>

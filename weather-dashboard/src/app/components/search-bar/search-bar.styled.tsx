@@ -7,6 +7,19 @@ export const SearchBarStyled = styled.input`
   width: 100%;
   height: 50px;
   margin-right: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  padding: 10px;
+    
+  &:focus, :active {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    padding: 10px;
+  }
 `;
 
 export const SearchBarContainer = styled.div`
@@ -18,5 +31,9 @@ export const SearchBarContainer = styled.div`
 
 export const SearchBtn = styled(ButtonGroupStyled)`
   color:#000000;
-  background-color:#ffffff;
+  background-color:#ffffff; 
+    
+  & > img {
+      margin: 13px 11px;
+  }
 `;

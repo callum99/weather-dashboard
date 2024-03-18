@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const ButtonGroupStyled = styled.button`
   border-radius: 50px;
@@ -6,6 +6,8 @@ export const ButtonGroupStyled = styled.button`
   width: 45px;
   background-color: rgba(88, 86, 118, 1);
   color: #ffffff;
+  border: 0px;
+  margin: 2px;
 
   &.active {
     background-color: #ffffff;

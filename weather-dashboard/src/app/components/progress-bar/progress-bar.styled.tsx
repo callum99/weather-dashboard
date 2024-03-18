@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const fontStyles = css`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.75rem;
@@ -39,7 +39,7 @@ export const BarTitle = styled.div`
   justify-content: center;
   align-self: center;
   width: 100%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 2.75rem;
@@ -53,7 +53,7 @@ export const BarSubTitle = styled.div`
   justify-content: center;
   align-self: center;
   width: 100%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 2.75rem;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const DayOfWeekStyle = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 44px;
@@ -20,7 +20,7 @@ export const DayOfWeekStyle = styled.div`
 `;
 
 export const WeatherTypeStyle = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -49,7 +49,7 @@ export const TempertureLow = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 44px;
@@ -72,7 +72,7 @@ export const TempertureHigh = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 44px;

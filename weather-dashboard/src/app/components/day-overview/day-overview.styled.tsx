@@ -7,7 +7,6 @@ export const DayOverviewContainer = styled.div`
   gap: 30px;
   flex-direction: row;
 
-  //small desktop
   @media screen and (max-width: 1215px) {
     flex-direction: column;
   }
@@ -49,7 +48,7 @@ export const DayOverviewTitle = styled.div`
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 2.75rem;

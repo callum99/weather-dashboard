@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const DashContainer = styled.div`
   display:flex;
@@ -42,7 +42,7 @@ export const DashRightContainer = styled.div`
 `;
 
 export const TodayLocation = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 64px;
   font-weight: 400;
   line-height: 44px;
@@ -52,7 +52,7 @@ export const TodayLocation = styled.div`
   justify-content: center;
   width:100%;
   color: #ffffff;
-  margin: 20px 0px;
+  margin: 40px 0px 20px 0px;
 
   @media screen and (max-width: 1215px) {
     font-size: 48px;
@@ -66,7 +66,7 @@ export const TodayLocation = styled.div`
   }
 `;
 export const TodayDate = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 44px;
@@ -76,7 +76,7 @@ export const TodayDate = styled.div`
   justify-content: center;
   width:100%;
   color: #ffffff;
-  margin: 20px 0px;
+  margin: 0px 0px 20px 0px;
 
   @media screen and (max-width: 1215px) {
     font-size: 27px;
@@ -90,7 +90,7 @@ export const TodayDate = styled.div`
   }
 `;
 export const TodayTemp = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 120px;
   font-weight: 400;
   line-height: 100%;
@@ -113,7 +113,7 @@ export const TodayTemp = styled.div`
   }
 `;
 export const TodayCondition = styled.div`
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 44px;
@@ -141,6 +141,8 @@ export const TodayCondition = styled.div`
 export const ImageContainer = styled.div`
   display:flex;
   justify-content: center;
+  max-height: 233px;
+    
   @media screen and (max-width: 1215px) {
     & > img {
       width: 175px;

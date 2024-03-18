@@ -4,7 +4,7 @@ export const FiveDayForecastTitle = styled.div`
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  font-family: __capriola_b990cb;
+  font-family: "Capriola", sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 2.75rem;
